@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Halvetica;
+}
+
+#header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 60px;
+    background-image: url(images/pink%20bd.jpg);
+    background-repeat: repeat-x;
+}
+#header img{
+    display: block;
+    margin: auto;
+    height: 60%;
+    padding-top: 5px;
+}
+
+
+/*============ TABS-TOP ============*/
+
+ #tabs-top{
+      position: fixed;
+      top     : 40px;
+      left    : 0;
+      z-index : 500;
+      width   : 100%;
+      height  : 40px;
+      
+}
+
+#tabs-top a{
+      float   : left;
+      display : block;
+      width   : 15%;
+      height  :20px;
+      font-weight : 700;
+      color       : white;
+      text-align  : center;
+      text-decoration : none;
+      padding-top     :10px 10px;     
+    
+}
+
+.gallery{
+    height: 100%;
+    background-image: url(images/blur%20pine.jpg);
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+
+p{
+
+    font-family: helvetca, sans-serif;
+}
+
+table{
+    font-family: halvetic, sans-serif;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color:black;
+    background-color: antiquewhite
+    
+}
+th{
+   font-weight: 800; 
+    background-color: palevioletred;
+    color: #ffffff;
+}
+
+    
+  
